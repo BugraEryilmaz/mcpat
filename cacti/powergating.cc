@@ -142,6 +142,7 @@ double Sleep_tx::compute_penalty()
 	just the wakeup latency will be shorter than the wakeup time from full asleep.
 	So, the sleep time and energy does not matter
 */
+	return wakeup_delay;
 
 }
 
